@@ -2,7 +2,7 @@ from manim import *
 
 class logo(Scene):
     def construct(self):
-        logo = SVGMobject("../Resources/Images/logo.svg")
+        logo = SVGMobject("~/Narayana-News/Resources/Images/logo.svg")
         text = Text("Narayana Public School", font_size=44)
         text.next_to(logo, DOWN)
         self.play(

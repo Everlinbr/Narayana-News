@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/data/data/com.termux/files/home/Narayana-News/Pymations/media/videos/logo-1080p-svg/480p15/partial_movie_files/logo/2118183852_207757393_2358810818.mp4'
-file 'file:/data/data/com.termux/files/home/Narayana-News/Pymations/media/videos/logo-1080p-svg/480p15/partial_movie_files/logo/366519484_425302925_1745040727.mp4'
