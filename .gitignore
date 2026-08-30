@@ -1,0 +1,5 @@
+# The Git Directory .
+./.git/
+
+#Manim Cache .
+./Pymations/__pycache__/
