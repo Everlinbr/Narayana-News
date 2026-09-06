@@ -1,4 +1,4 @@
- Purpose          Latte     Mocha
+**Purpose**          **Latte**     **Mocha** <br>
 Background         ```#eff1f5   #1e1e2e```<br>
 Text               ```#4c4f69   #cdd6f4```<br>
 Links / Primary    ```#1e66f5   #89b4fa```<br>
