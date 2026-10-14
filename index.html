@@ -6,44 +6,44 @@
       background-color: #1e1e2e;
       color: #cdd6f4;
       font-family: Arial, sans-serif;
+      font-size: 14px;
       margin: 0;
-      padding: 20px;
+      padding: 8px;
     }
 
     a {
-      color: #89b4fa;
+      color: #89dceb;
       text-decoration: none;
     }
 
-    a:hover {
-      color: #cba6f7;
-      text-decoration: underline;
-    }
-
     h1 {
-      color: #89b4fa;
-      font-size: 36px;
+      color: #89dceb;
+      font-size: 28px;
+      margin: 8px;
     }
 
     h2 {
-      color: #cba6f7;
-      font-size: 24px;
+      color: #89dceb;
+      font-size: 19px;
+      margin-bottom: 10px;
     }
 
     h3 {
-      color: #89dceb;
+      color: #cba6f7;
+      font-size: 16px;
+      margin-top: 5px;
     }
 
     p {
       color: #bac2de;
-      line-height: 1.6;
+      line-height: 1.4;
     }
 
     hr {
       border: 0;
       border-top: 1px solid #45475a;
-      margin-top: 25px;
-      margin-bottom: 25px;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 
     table {
@@ -52,36 +52,37 @@
     }
 
     td {
-      padding: 15px;
+      padding: 8px;
       vertical-align: top;
-    }
-
-    .header {
-      text-align: center;
-      padding: 35px 10px;
-    }
-
-    .subtitle {
-      color: #cba6f7;
     }
 
     .navigation {
       text-align: right;
-      padding: 12px 5px;
+      font-size: 12px;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .subtitle {
+      color: #cba6f7;
+      font-size: 15px;
+    }
+
+    .muted {
+      color: #a6adc8;
+      font-size: 11px;
     }
 
     .announcement {
       background-color: #313244;
-      border-left: 4px solid #f9e2af;
+      border: 1px solid #f9e2af;
     }
 
     .news-card {
       background-color: #313244;
       border: 1px solid #45475a;
-    }
-
-    .news-card h3 {
-      color: #cba6f7;
     }
 
     .event-card {
@@ -91,61 +92,32 @@
 
     .footer {
       text-align: center;
-      padding: 20px 10px;
-    }
-
-    .muted {
-      color: #a6adc8;
-      font-size: 14px;
-    }
-
-    @media screen and (max-width: 600px) {
-      body {
-        padding: 10px;
-      }
-
-      h1 {
-        font-size: 28px;
-      }
-
-      .navigation {
-        text-align: center;
-      }
-
-      .navigation td {
-        padding: 8px 2px;
-      }
-
-      .news-card td,
-      .event-card td {
-        padding: 10px;
-      }
     }
   </style></head><body>  <!-- Navigation -->  <table>
     <tr>
       <td class="navigation">
         <a href="./src/about[Catppuccin-Mocha].html">About</a>
-        &nbsp; | &nbsp;
-        <a href="./src/announcements[Catppuccin-Mocha].html">Announcements</a>
-        &nbsp; | &nbsp;
+        |
+        <a href="./src/announcements[Catppuccin-Mocha].html">Notices</a>
+        |
         <a href="./src/events[Catppuccin-Mocha].html">Events</a>
-        &nbsp; | &nbsp;
-        <a href="./index[Catppuccin-Latte].html">☀ Light Mode</a>
+        |
+        <a href="./index[Catppuccin-Latte].html">☀ Light</a>
       </td>
     </tr>
-  </table>  <hr>  <!-- Website Header -->  <table class="header">
+  </table>  <hr>  <!-- Header -->  <table class="header">
     <tr>
       <td>
-        <h1>📰 Narayana News</h1>    <h3 class="subtitle">
+        <h1>📰 Narayana News</h1>    <p class="subtitle">
       Independent Student Journalism
-    </h3>
+    </p>
 
     <p>
       School news, announcements, events and achievements.
     </p>
 
     <p class="muted">
-      STUDENT-RUN &nbsp; • &nbsp; UNOFFICIAL PUBLICATION
+      STUDENT-RUN | UNOFFICIAL PUBLICATION
     </p>
   </td>
 </tr>
@@ -154,8 +126,8 @@
     <tr>
       <td>
         <h3>Welcome to Narayana News</h3>    <p>
-      Your place to discover important school updates,
-      upcoming activities and student achievements.
+      Your place for school updates, activities
+      and student achievements.
     </p>
 
     <p class="muted">
@@ -164,72 +136,70 @@
   </td>
 </tr>
 
-  </table>  <hr>  <!-- Latest News -->  <h2>Latest Updates</h2>  <p class="muted">
-    NEWS &nbsp; / &nbsp; ANNOUNCEMENTS &nbsp; / &nbsp; COMMUNITY
-  </p>  <!-- AUTO_NEWS_START -->  <table cellspacing="10">
+  </table>  <hr>  <!-- Latest Updates -->  <h2>Latest Updates</h2>  <p class="muted">
+    NEWS | ANNOUNCEMENTS | COMMUNITY
+  </p>  <!-- AUTO_NEWS_START -->  <table cellspacing="5">
     <tr>
       <td class="news-card" width="50%">
-        <p class="muted">WELCOME</p>    <h3>Narayana News Website</h3>
+        <p class="muted">WELCOME</p>    <h3>Narayana News</h3>
 
     <p>
-      Discover the student-run publication bringing
-      school news and updates together.
+      Discover our student-run publication
+      and its latest updates.
     </p>
 
     <a href="./src/about[Catppuccin-Mocha].html">
-      Discover the Publication →
+      Discover →
     </a>
   </td>
 
   <td class="news-card" width="50%">
     <p class="muted">NOTICES</p>
 
-    <h3>School Announcements</h3>
+    <h3>Announcements</h3>
 
     <p>
-      Find important notices and information
-      published for the school community.
+      Important notices and information
+      for the school community.
     </p>
 
     <a href="./src/announcements[Catppuccin-Mocha].html">
-      View Announcements →
+      View Notices →
     </a>
   </td>
 </tr>
 
 <tr>
   <td class="news-card">
-    <p class="muted">WHAT'S HAPPENING</p>
+    <p class="muted">UPCOMING</p>
 
-    <h3>Upcoming Events</h3>
+    <h3>School Events</h3>
 
     <p>
-      Explore upcoming school activities,
-      exhibitions and special occasions.
+      Explore school activities and
+      upcoming special occasions.
     </p>
 
     <a href="./src/events[Catppuccin-Mocha].html">
-      Explore Events →
+      Explore →
     </a>
   </td>
 
   <td class="news-card">
     <p class="muted">STUDENT LIFE</p>
 
-    <h3>Student Achievements</h3>
+    <h3>Achievements</h3>
 
     <p>
-      A space to recognise student accomplishments
-      and celebrate their hard work.
+      Celebrating student accomplishments
+      and their hard work.
     </p>
 
-    <a href="#">
-      Achievements →
-    </a>
+    <a href="#">Discover →</a>
   </td>
 </tr>
 
-  </table>  <!-- AUTO_NEWS_END -->  <hr>  <!-- Upcoming Events -->  <h2>📅 Upcoming Events</h2>  <table cellspacing="10">
+  </table>  <!-- AUTO_NEWS_END -->  <hr>  <!-- Upcoming Events -->  <h2>📅 Upcoming Events</h2>  <table cellspacing="5">
     <tr>
       <td class="event-card" width="65%">
         <p class="muted">FEATURED EVENT</p>    <h3>STEM Exhibition</h3>
@@ -249,23 +219,20 @@
     <h3>More Events</h3>
 
     <p>
-      New activities and events will be featured here.
+      More activities will be announced here.
     </p>
   </td>
 </tr>
 
   </table>  <hr>  <!-- About -->  <h2>About the Publication</h2>  <p>
-    Narayana News is an independent, student-run publication
-    created to share announcements, events, achievements
-    and other school-related updates.
-  </p>  <p>
-    It is an unofficial student project and is not presented
-    as an official school communication channel.
-  </p>  <p>
-    <a href="./src/about[Catppuccin-Mocha].html">
-      Learn More About Us →
-    </a>
-  </p>  <hr>  <!-- Footer -->  <table class="footer">
+    Narayana News is an independent, student-run
+    publication sharing school-related updates,
+    announcements, events and achievements.
+  </p>  <p class="muted">
+    This is an unofficial student project.
+  </p>  <a href="./src/about[Catppuccin-Mocha].html">
+    Learn More →
+  </a>  <hr>  <!-- Footer -->  <table class="footer">
     <tr>
       <td>
         <h3>Narayana News</h3>    <p class="muted">
@@ -279,11 +246,11 @@
     <a href="./src/about[Catppuccin-Mocha].html">
       About
     </a>
-    &nbsp; | &nbsp;
+    |
     <a href="./src/announcements[Catppuccin-Mocha].html">
-      Announcements
+      Notices
     </a>
-    &nbsp; | &nbsp;
+    |
     <a href="./src/events[Catppuccin-Mocha].html">
       Events
     </a>
