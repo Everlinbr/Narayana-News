@@ -1,236 +1,261 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Narayana News Homepage</title>
-  </head>
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Narayana News</title>  <style>
+    body {
+      background-color: #eff1f5;
+      color: #4c4f69;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 8px;
+    }
 
-<body bgcolor="#eff1f5" text="#4c4f69">
+    a {
+      color: #179299;
+      text-decoration: none;
+    }
 
-  <!-- Navigation Bar -->
+    h1 {
+      color: #179299;
+      font-size: 28px;
+      margin: 8px;
+    }
 
-  <table width="100%">
+    h2 {
+      color: #8839ef;
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #7287fd;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    p {
+      color: #5c5f77;
+      line-height: 1.4;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #ccd0da;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 8px;
+      vertical-align: top;
+    }
+
+    .navigation {
+      text-align: right;
+      font-size: 12px;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .subtitle {
+      color: #8839ef;
+      font-size: 15px;
+    }
+
+    .muted {
+      color: #7c7f93;
+      font-size: 11px;
+    }
+
+    .announcement {
+      background-color: #e6e9ef;
+      border: 1px solid #df8e1d;
+    }
+
+    .news-card {
+      background-color: #e6e9ef;
+      border: 1px solid #ccd0da;
+    }
+
+    .event-card {
+      background-color: #e6e9ef;
+      border: 1px solid #ccd0da;
+    }
+
+    .footer {
+      text-align: center;
+    }
+  </style></head><body>  <!-- Navigation -->  <table>
     <tr>
-      <td>
-        <img src="./Resources/Images/logo.svg"
-          alt="Narayana Public School Logo"
-          width="50" height="50">
-      </td>
-
-      <td align="right">
-        <font color="#1e66f5">
-          <a href="./src/about[Catppuccin-Latte].html">About</a>
-          &nbsp;|&nbsp;
-          <a href="./src/announcements[Catppuccin-Latte].html">Announcements</a>
-          &nbsp;|&nbsp;
-          <a href="./src/events[Catppuccin-Latte].html">Events</a>
-          &nbsp;|&nbsp;
-          <a href="./index.html">🌙 Dark Mode</a>
-        </font>
+      <td class="navigation">
+        <a href="./src/about[Catppuccin-Latte].html">About</a>
+        |
+        <a href="./src/announcements[Catppuccin-Latte].html">Notices</a>
+        |
+        <a href="./src/events[Catppuccin-Latte].html">Events</a>
+        |
+        <a href="./index.html">☾ Dark</a>
       </td>
     </tr>
-  </table>
-
-  <hr color="#bcc0cc" />
-
-  <!-- Hero -->
-
-  <center>
-    <h1><font color="#8839ef">📰 Narayana News</font></h1>
+  </table>  <hr>  <!-- Header -->  <table class="header">
+    <tr>
+      <td>
+        <h1>📰 Narayana News</h1>    <p class="subtitle">
+      Independent Student Journalism
+    </p>
 
     <p>
-      Your source for school news, announcements, events and achievements.
+      School news, announcements, events and achievements.
     </p>
-  </center>
 
-  <hr color="#bcc0cc" />
+    <p class="muted">
+      STUDENT-RUN | UNOFFICIAL PUBLICATION
+    </p>
+  </td>
+</tr>
 
-  <!-- Important Announcement -->
-
-  <h2><font color="#df8e1d">📌 Important Announcement</font></h2>
-
-  <table width="100%" border="1" cellpadding="10">
+  </table>  <hr>  <!-- Important Announcement -->  <h2>📌 Important Announcement</h2>  <table class="announcement">
     <tr>
       <td>
-        <h3><font color="#df8e1d">Welcome to Narayana News</font></h3>
+        <h3>Welcome to Narayana News</h3>    <p>
+      Your place for school updates, activities
+      and student achievements.
+    </p>
 
-        <p>
-          Stay connected with the latest announcements, events and
-          updates from Narayana Public School, Gonda.
-        </p>
-      </td>
-    </tr>
-  </table>
+    <p class="muted">
+      Stay informed. Stay connected.
+    </p>
+  </td>
+</tr>
 
-  <hr color="#bcc0cc" />
-
-  <!-- Latest Updates -->
-
-  <h2><font color="#04a5e5">📰 Latest Updates</font></h2>
-
-  <!-- AUTO_NEWS_START -->
-
-  <table width="100%" border="1" cellpadding="10">
+  </table>  <hr>  <!-- Latest Updates -->  <h2>Latest Updates</h2>  <p class="muted">
+    NEWS | ANNOUNCEMENTS | COMMUNITY
+  </p>  <!-- AUTO_NEWS_START -->  <table cellspacing="5">
     <tr>
-      <td width="50%">
-        <h3><font color="#8839ef">Narayana News Website</font></h3>
+      <td class="news-card" width="50%">
+        <p class="muted">WELCOME</p>    <h3>Narayana News</h3>
 
-        <!--<p>
-          Welcome to the official student-run news platform of
-          Narayana Public School.
-        </p>-->
+    <p>
+      Discover our student-run publication
+      and its latest updates.
+    </p>
 
-        <a href="#">
-          <font color="#1e66f5">Read More →</font>
-        </a>
-      </td>
-
-      <td width="50%">
-        <h3><font color="#04a5e5">School Announcements</font></h3>
-
-        <p>
-          Important school announcements and notices will appear here.
-        </p>
-
-        <a href="./src/announcements[Catppuccin-Latte].html">
-          <font color="#1e66f5">View Announcements →</font>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <h3><font color="#40a02b">Upcoming Events</font></h3>
-
-        <p>
-          Stay updated with upcoming school events and activities.
-        </p>
-
-        <a href="./src/events[Catppuccin-Latte].html">
-          <font color="#1e66f5">View Events →</font>
-        </a>
-      </td>
-
-      <td>
-        <h3><font color="#ea76cb">Student Achievements</font></h3>
-
-        <p>
-          Celebrating the achievements and success of our students.
-        </p>
-
-        <a href="#">
-          <font color="#1e66f5">View Achievements →</font>
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <!-- AUTO_NEWS_END -->
-
-  <hr color="#bcc0cc" />
-
-  <!-- Upcoming Events -->
-
-  <h2><font color="#40a02b">📅 Upcoming Events</font></h2>
-
-  <table width="100%" border="1" cellpadding="10">
-    <tr>
-      <td>
-        <h3><font color="#40a02b">STEM Exhibition</font></h3>
-
-        <p><b>Date:</b> 30 October 2026</p>
-
-        <p>
-          Students will present innovative projects under the theme
-          <b>Innovation for a Better Future</b>.
-        </p>
-      </td>
-
-      <td>
-        <h3><font color="#4c4f69">More Events Coming Soon</font></h3>
-
-        <p>
-          More school events and activities will be added here.
-        </p>
-      </td>
-    </tr>
-  </table>
-
-  <hr color="#bcc0cc" />
-
-  <!-- Quick Links -->
-
-  <!--<h2><font color="#8839ef">🔗 Quick Links</font></h2>
-
-  <table width="100%" cellpadding="10">
-    <tr align="center">
-      <td>
-        <a href="./src/announcements[Catppuccin-Latte].html">
-          📢<br />
-          <font color="#1e66f5">Announcements</font>
-        </a>
-      </td>
-
-      <td>
-        <a href="./src/events[Catppuccin-Latte].html">
-          📅<br />
-          <font color="#1e66f5">Events</font>
-        </a>
-      </td>
-
-      <td>
-        <a href="./src/about[Catppuccin-Latte].html">
-          ℹ️<br />
-          <font color="#1e66f5">About Us</font>
-        </a>
-      </td>-->
-
-      <td>
-        <a href="mailto:npsgondanews@gmail.com">
-          📧<br />
-          <font color="#1e66f5">Contact</font>
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <hr color="#bcc0cc" />
-
-  <!-- About Narayana News -->
-
-  <h2><font color="#8839ef">ℹ️ About Narayana News</font></h2>
-
-  <p>
-    Narayana News is a student-run platform created to keep the
-    Narayana Public School community informed about announcements,
-    events, achievements and important school updates.
-  </p>
-
-  <center>
     <a href="./src/about[Catppuccin-Latte].html">
-      <font color="#1e66f5">Learn More About Us →</font>
+      Discover →
     </a>
-  </center>
+  </td>
 
-  <hr color="#bcc0cc" />
+  <td class="news-card" width="50%">
+    <p class="muted">NOTICES</p>
 
-  <!-- Footer -->
-
-  <center>
-    <h3><font color="#8839ef">Narayana News 📰</font></h3>
+    <h3>Announcements</h3>
 
     <p>
-      A Student-Run News Platform of Narayana Public School, Gonda
+      Important notices and information
+      for the school community.
     </p>
 
-    <p>© 2026 Narayana News</p>
+    <a href="./src/announcements[Catppuccin-Latte].html">
+      View Notices →
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td class="news-card">
+    <p class="muted">UPCOMING</p>
+
+    <h3>School Events</h3>
 
     <p>
-      <!--<a href="mailto:npsgondanews@gmail.com">-->
-        <font color="#1e66f5">Contact Us</font>
-      </a>
+      Explore school activities and
+      upcoming special occasions.
     </p>
-  </center>
 
-</body>
+    <a href="./src/events[Catppuccin-Latte].html">
+      Explore →
+    </a>
+  </td>
+
+  <td class="news-card">
+    <p class="muted">STUDENT LIFE</p>
+
+    <h3>Achievements</h3>
+
+    <p>
+      Celebrating student accomplishments
+      and their hard work.
+    </p>
+
+    <a href="#">Discover →</a>
+  </td>
+</tr>
+
+  </table>  <!-- AUTO_NEWS_END -->  <hr>  <!-- Upcoming Events -->  <h2>📅 Upcoming Events</h2>  <table cellspacing="5">
+    <tr>
+      <td class="event-card" width="65%">
+        <p class="muted">FEATURED EVENT</p>    <h3>STEM Exhibition</h3>
+
+    <p>
+      <b>Date:</b> 30 October 2026
+    </p>
+
+    <p>
+      Students will present innovative projects
+      under the theme
+      <b>Innovation for a Better Future</b>.
+    </p>
+  </td>
+
+  <td class="event-card" width="35%">
+    <h3>More Events</h3>
+
+    <p>
+      More activities will be announced here.
+    </p>
+  </td>
+</tr>
+
+  </table>  <hr>  <!-- About -->  <h2>About the Publication</h2>  <p>
+    Narayana News is an independent, student-run
+    publication sharing school-related updates,
+    announcements, events and achievements.
+  </p>  <p class="muted">
+    This is an unofficial student project.
+  </p>  <a href="./src/about[Catppuccin-Latte].html">
+    Learn More →
+  </a>  <hr>  <!-- Footer -->  <table class="footer">
+    <tr>
+      <td>
+        <h3>Narayana News</h3>    <p class="muted">
+      Independent Student Journalism
+    </p>
+
+    <p class="muted">
+      © 2026 Narayana News
+    </p>
+
+    <a href="./src/about[Catppuccin-Latte].html">
+      About
+    </a>
+    |
+    <a href="./src/announcements[Catppuccin-Latte].html">
+      Notices
+    </a>
+    |
+    <a href="./src/events[Catppuccin-Latte].html">
+      Events
+    </a>
+  </td>
+</tr>
+
+  </table></body>
 </html>
