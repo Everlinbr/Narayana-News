@@ -1,63 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Events - Narayana Public School</title>
+
+    <style>
+        body {
+            background-color: #1e1e2e;
+            color: #cdd6f4;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 8px;
+        }
+
+        a {
+            color: #89dceb;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #89dceb;
+            font-size: 26px;
+        }
+
+        h2 {
+            color: #89dceb;
+            font-size: 21px;
+        }
+
+        h3 {
+            color: #cba6f7;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        p {
+            color: #bac2de;
+            line-height: 1.7;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #45475a;
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 8px;
+            vertical-align: middle;
+        }
+
+        .navigation {
+            text-align: right;
+            font-size: 12px;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .location {
+            color: #cba6f7;
+            font-size: 14px;
+        }
+
+        .section-title {
+            text-align: center;
+        }
+
+        .event-card {
+            background-color: #313244;
+            border: 1px solid #45475a;
+            padding: 12px;
+        }
+
+        .event-date {
+            color: #a6adc8;
+            font-size: 12px;
+        }
+
+        .footer {
+            text-align: center;
+            color: #a6adc8;
+            font-size: 11px;
+        }
+    </style>
 </head>
-<body bgcolor="#f4f7fb">
+
+<body>
+
     <!-- Navigation Bar -->
-  <table width="100%">
-    <tr>
-      <td>
-        <img src="./Resources/Images/logo.svg"
-          alt="Narayana Public School Logo"
-          width="50" height="50">
-      </td>
+    <table>
+        <tr>
+            <td>
+                <img src="./Resources/Images/logo.svg"
+                     alt="Narayana Public School Logo"
+                     width="50" height="50">
+            </td>
 
-      <td align="right">
-          <a href="./src/about[Catppuccin-Mocha].html">About</a>
-          &nbsp;|&nbsp;
-          <a href="./src/announcements[Catppuccin-Mocha].html">Announcements</a>
-          &nbsp;|&nbsp;
-          <a href="./src/events[Catppuccin-Mocha].html">Events</a>
-          &nbsp;|&nbsp;
-          <a href="./index[Catppuccin-Latte].html">☀ Light Mode</a>
-      </td>
-    </tr>
-  </table>
-    <center>
-        <h1>Narayana Public School, Gonda</h1>
-        <h3>Gonda, Uttar Pradesh</h3>
-        
-    </center>
+            <td class="navigation">
+                <a href="./src/about[Catppuccin-Mocha].html">About</a>
+                &nbsp;|&nbsp;
+                <a href="./src/announcements[Catppuccin-Mocha].html">Announcements</a>
+                &nbsp;|&nbsp;
+                <a href="./src/events[Catppuccin-Mocha].html">Events</a>
+                &nbsp;|&nbsp;
+                <a href="./index[Catppuccin-Latte].html">☀ Light Mode</a>
+            </td>
+        </tr>
+    </table>
 
-    <center><h2><u>School Events</u></h2></center>
-    <h3>Inter-School Language Quiz Competition - 20 August 2026</h3>
-    <p>
-    An Inter-School Language-based Quiz Competition was held on 20 August 2026 in the auditorium of Narayana Public School. 
-    The event brought together students from four schools — Narayana Public School, Fatima, St. Xavier’s, and raghukul— 
-    in an engaging competition centred on language and literature.
-    </p>
-    <p>
-    The competition was conducted in two sections, Hindi and English, with the Hindi section taking place first, 
-    followed by the English section. The participants competed through a variety of interesting rounds, 
-    including Rapid Fire, Guess the Poet, and the Grammar Quiz. Questions were presented in different formats, 
-    requiring the teams to think quickly, recall information accurately, and work effectively together. 
-    The atmosphere remained lively and competitive throughout the event.
-    </p>
-    <p>
-    The quiz provided students with an opportunity to demonstrate their knowledge of language, grammar, and literature, 
-    while also developing quick thinking, teamwork, and confidence.
-    </p>
-    <p>
-    At the conclusion of the competition, <b>Narayana Public School emerged as the winner.</b> 
-    The achievement was celebrated with the presentation of a trophy and gifts to the winning team.
-    </p>
-    <p>
-    The smooth and successful conduct of the event was made possible through the guidance of the Principal, 
-    the support of the Vice-Principal, and the dedicated efforts of the teachers.
-    </p>
+    <hr>
+
+    <!-- Header -->
+    <table class="header">
+        <tr>
+            <td>
+                <h1>Narayana Public School, Gonda</h1>
+                <p class="location">Gonda, Uttar Pradesh</p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Events -->
+    <h2 class="section-title"><u>School Events</u></h2>
+
+    <table class="event-card">
+        <tr>
+            <td>
+                <p class="event-date">20 AUGUST 2026</p>
+
+                <h3>Inter-School Language Quiz Competition - 20 August 2026</h3>
+
+                <p>
+                    An Inter-School Language-based Quiz Competition was held on 20 August 2026 in the auditorium of Narayana Public School.
+                    The event brought together students from four schools — Narayana Public School, Fatima, St. Xavier’s, and raghukul—
+                    in an engaging competition centred on language and literature.
+                </p>
+
+                <p>
+                    The competition was conducted in two sections, Hindi and English, with the Hindi section taking place first,
+                    followed by the English section. The participants competed through a variety of interesting rounds,
+                    including Rapid Fire, Guess the Poet, and the Grammar Quiz. Questions were presented in different formats,
+                    requiring the teams to think quickly, recall information accurately, and work effectively together.
+                    The atmosphere remained lively and competitive throughout the event.
+                </p>
+
+                <p>
+                    The quiz provided students with an opportunity to demonstrate their knowledge of language, grammar, and literature,
+                    while also developing quick thinking, teamwork, and confidence.
+                </p>
+
+                <p>
+                    At the conclusion of the competition,
+                    <b>Narayana Public School emerged as the winner.</b>
+                    The achievement was celebrated with the presentation of a trophy and gifts to the winning team.
+                </p>
+
+                <p>
+                    The smooth and successful conduct of the event was made possible through the guidance of the Principal,
+                    the support of the Vice-Principal, and the dedicated efforts of the teachers.
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Footer -->
+    <table class="footer">
+        <tr>
+            <td>
+                <p>NARAYANA NEWS</p>
+                Independent Student Journalism
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
-
-           
